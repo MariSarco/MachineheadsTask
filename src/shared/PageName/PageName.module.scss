@@ -1,0 +1,21 @@
+.container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    top: 0;
+}
+
+.container h1{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #f4f4f4;
+    font-size: 15vmin;
+    writing-mode: tb-rl;
+    letter-spacing: -0.3rem;
+    position: fixed;
+    left: 0;
+    z-index: -1;
+    margin: 0;
+}
