@@ -34,8 +34,7 @@ const Home = () => {
   // }
 
   const deletePostHandler = (postId: number) => {
-    console.log(postId);
-    // dispatch(postsActions.deletePost(postId));
+    dispatch(postsActions.deletePost(postId));
   };
 
   return (
